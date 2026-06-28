@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#c7b5ff">
   <title>LOVEME DESKTOP</title>
   <link rel="stylesheet" href="./style.css">
@@ -11,234 +11,185 @@
 </head>
 <body>
   <main class="app-shell">
-    <section class="capture-wrap" aria-label="페어틀 미리보기">
+    <section class="preview-area" aria-label="페어틀 미리보기">
       <div class="desktop" id="captureArea">
         <div class="wallpaper-grid" aria-hidden="true"></div>
-        <div class="wallpaper-noise" aria-hidden="true"></div>
-        <div class="wallpaper-sparkle-field" aria-hidden="true">
-          <span class="wallpaper-sparkle sparkle-star sparkle-white" style="--x:49%;--y:34%;--s:4px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-pink" style="--x:56%;--y:38%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-mint" style="--x:45%;--y:49%;--s:4px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-yellow" style="--x:60%;--y:53%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-white" style="--x:37%;--y:42%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-pink" style="--x:68%;--y:36%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-mint" style="--x:31%;--y:31%;--s:4px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-white" style="--x:78%;--y:27%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-yellow" style="--x:18%;--y:19%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-pink" style="--x:13%;--y:57%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-white" style="--x:84%;--y:58%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-mint" style="--x:72%;--y:73%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-white" style="--x:24%;--y:77%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-pink" style="--x:42%;--y:72%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-white" style="--x:56%;--y:18%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-mint" style="--x:88%;--y:16%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-yellow" style="--x:34%;--y:15%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-white" style="--x:9%;--y:41%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-pink" style="--x:93%;--y:44%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-white" style="--x:64%;--y:15%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-mint" style="--x:28%;--y:54%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-pink" style="--x:52%;--y:60%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-yellow" style="--x:74%;--y:47%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-white" style="--x:16%;--y:72%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-mint" style="--x:81%;--y:80%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-white" style="--x:39%;--y:26%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-pink" style="--x:59%;--y:29%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-yellow" style="--x:21%;--y:36%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-pink" style="--x:91%;--y:69%;--s:3px"></span>
-          <span class="wallpaper-sparkle sparkle-diamond sparkle-mint" style="--x:6%;--y:24%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-dot sparkle-white" style="--x:47%;--y:18%;--s:2px"></span>
-          <span class="wallpaper-sparkle sparkle-star sparkle-white" style="--x:70%;--y:22%;--s:2px"></span>
+        <div class="sparkle-field" aria-hidden="true">
+          <i style="--x:10%;--y:16%;--s:3px"></i><i style="--x:18%;--y:42%;--s:2px"></i><i style="--x:23%;--y:71%;--s:3px"></i>
+          <i style="--x:31%;--y:18%;--s:4px"></i><i style="--x:37%;--y:54%;--s:2px"></i><i style="--x:44%;--y:28%;--s:3px"></i>
+          <i style="--x:51%;--y:16%;--s:2px"></i><i style="--x:58%;--y:66%;--s:3px"></i><i style="--x:66%;--y:22%;--s:3px"></i>
+          <i style="--x:72%;--y:76%;--s:2px"></i><i style="--x:79%;--y:18%;--s:3px"></i><i style="--x:86%;--y:49%;--s:2px"></i>
+          <i style="--x:93%;--y:33%;--s:4px"></i><i style="--x:40%;--y:81%;--s:3px"></i><i style="--x:55%;--y:43%;--s:2px"></i>
+          <i style="--x:6%;--y:58%;--s:2px"></i><i style="--x:69%;--y:55%;--s:3px"></i><i style="--x:28%;--y:36%;--s:2px"></i>
         </div>
-        <div class="heartbeat" aria-hidden="true">
-          <span class="heart-pixel"></span>
-          <span class="heart-ring heart-ring-a"></span>
-          <span class="heart-ring heart-ring-b"></span>
-        </div>
+        <div class="center-heart" aria-hidden="true"><span></span></div>
 
-        <div class="desktop-icons" aria-label="바탕화면 아이콘">
-          <button class="desktop-icon" type="button" data-focus="pair" aria-label="PAIR VIEWER 열기"><span class="icon-shape icon-pair"></span><b>PAIR</b></button>
-          <button class="desktop-icon" type="button" data-focus="char1" aria-label="CHARACTER 01 열기"><span class="icon-shape icon-file icon-file-a"></span><b>CHAR 01</b></button>
-          <button class="desktop-icon" type="button" data-focus="char2" aria-label="CHARACTER 02 열기"><span class="icon-shape icon-file icon-file-b"></span><b>CHAR 02</b></button>
-          <button class="desktop-icon" type="button" data-focus="secret" aria-label="SECRET MONITOR 열기"><span class="icon-shape icon-secret"></span><b>SECRET</b></button>
-          <button class="desktop-icon" type="button" data-focus="music" aria-label="MUSIC PLAYER 열기"><span class="icon-shape icon-music"></span><b>MUSIC</b></button>
+        <div class="desktop-icons" aria-hidden="true">
+          <div class="desk-icon"><span class="ico ico-pair"></span><b>PAIR</b></div>
+          <div class="desk-icon"><span class="ico ico-story"></span><b>STORY</b></div>
+          <div class="desk-icon"><span class="ico ico-secret"></span><b>SECRET</b></div>
+          <div class="desk-icon"><span class="ico ico-music"></span><b>MUSIC</b></div>
         </div>
 
         <header class="desktop-status">
           <span>LOVEME DESKTOP</span>
-          <b id="pairNameTop">LOVE.exe</b>
+          <b id="topPairName">LOVE.exe</b>
           <span>ONLINE</span>
         </header>
 
-        <section class="window window-pair is-front" id="pairViewer" data-window="pair" style="--x:22%;--y:23%;--w:43%;--h:48%;">
+        <section class="window story-window">
+          <div class="titlebar">
+            <strong>STORY.txt</strong>
+            <span class="window-actions" aria-hidden="true"><i>−</i><i>×</i></span>
+          </div>
+          <div class="window-body story-body">
+            <h2 id="storyTitle">PAIR STORY</h2>
+            <p id="storyText">둘이 처음 만났던 순간부터 지금까지의 이야기를 적어 주세요. 길게 적어도 메모장 안에서 자연스럽게 줄바꿈됩니다.</p>
+            <div class="story-note">
+              <b>memo</b>
+              <span id="storyMemo">this file remembers everything.</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="window pair-window">
           <div class="titlebar">
             <strong>PAIR VIEWER</strong>
-            <span class="window-buttons" aria-hidden="true"><i class="btn-min">−</i><i class="btn-close">×</i></span>
+            <span class="window-actions" aria-hidden="true"><i>−</i><i>×</i></span>
           </div>
           <div class="window-body pair-body">
-            <div class="pair-label">
-              <span id="pairNameMain">LOVE.exe</span>
-              <small>click character file</small>
+            <div class="pair-filebar">
+              <b id="mainPairName">LOVE.exe</b>
+              <small>pair file opened</small>
             </div>
-            <button class="sd-card sd-card-a" type="button" data-open-char="1" aria-label="캐릭터 1 창 앞으로">
-              <span class="sd-frame"><img id="sdImage1" alt=""></span>
-              <b id="sdName1">SUBJECT 01</b>
-            </button>
-            <button class="sd-card sd-card-b" type="button" data-open-char="2" aria-label="캐릭터 2 창 앞으로">
-              <span class="sd-frame"><img id="sdImage2" alt=""></span>
-              <b id="sdName2">SUBJECT 02</b>
-            </button>
-            <div class="connection-line" aria-hidden="true"><span>♡</span></div>
-          </div>
-        </section>
-
-        <section class="window window-char window-char-a" data-window="char1" style="--x:50%;--y:14%;--w:31%;--h:31%;">
-          <div class="titlebar">
-            <strong>CHARACTER_01.txt</strong>
-            <span class="window-buttons" aria-hidden="true"><i class="btn-min">−</i><i class="btn-close">×</i></span>
-          </div>
-          <div class="window-body character-body">
-            <div class="character-photo"><img id="charImage1" alt=""></div>
-            <div class="character-info">
-              <h2 id="charName1">SUBJECT 01</h2>
-              <p id="charLine1">여기까지 와줬네.</p>
-              <small id="charTag1">saved memory</small>
+            <div class="pair-cards">
+              <div class="pair-card">
+                <div class="pair-image"><img id="sdImage1" alt=""></div>
+                <strong id="name1Card">SUBJECT 01</strong>
+              </div>
+              <div class="pair-card">
+                <div class="pair-image"><img id="sdImage2" alt=""></div>
+                <strong id="name2Card">SUBJECT 02</strong>
+              </div>
+              <div class="pair-link" aria-hidden="true"><span>♡</span></div>
             </div>
           </div>
         </section>
 
-        <section class="window window-secret" data-window="secret" style="--x:69%;--y:23%;--w:28%;--h:43%;">
+        <section class="window secret-window">
           <div class="titlebar">
             <strong>SECRET MONITOR</strong>
-            <span class="window-buttons" aria-hidden="true"><i class="btn-min">−</i><i class="btn-close">×</i></span>
+            <span class="window-actions" aria-hidden="true"><i>−</i><i>×</i></span>
           </div>
           <div class="window-body secret-body">
-            <div class="secret-faces">
-              <span><img id="secretImage1" alt=""><b id="secretName1">SUBJECT 01</b></span>
-              <span><img id="secretImage2" alt=""><b id="secretName2">SUBJECT 02</b></span>
+            <div class="secret-profile-row">
+              <div class="secret-profile">
+                <div class="secret-image"><img id="secretImage1" alt=""></div>
+                <b id="secretName1">SUBJECT 01</b>
+              </div>
+              <div class="secret-profile">
+                <div class="secret-image"><img id="secretImage2" alt=""></div>
+                <b id="secretName2">SUBJECT 02</b>
+              </div>
             </div>
             <div class="meter-list">
-              <div class="meter"><label id="statLabel1">LOVE</label><b id="statValue1">87%</b><i></i></div>
-              <div class="meter"><label id="statLabel2">TRUST</label><b id="statValue2">41%</b><i></i></div>
-              <div class="meter"><label id="statLabel3">OBSESSION</label><b id="statValue3">99%</b><i></i></div>
+              <div class="meter" id="meter1"><label id="statLabel1">LOVE</label><b id="statValue1">87%</b><span></span></div>
+              <div class="meter" id="meter2"><label id="statLabel2">TRUST</label><b id="statValue2">41%</b><span></span></div>
+              <div class="meter" id="meter3"><label id="statLabel3">OBSESSION</label><b id="statValue3">99%</b><span></span></div>
             </div>
           </div>
         </section>
 
-        <section class="window window-char window-char-b" data-window="char2" style="--x:48%;--y:51%;--w:30%;--h:30%;">
-          <div class="titlebar">
-            <strong>CHARACTER_02.txt</strong>
-            <span class="window-buttons" aria-hidden="true"><i class="btn-min">−</i><i class="btn-close">×</i></span>
-          </div>
-          <div class="window-body character-body">
-            <div class="character-photo"><img id="charImage2" alt=""></div>
-            <div class="character-info">
-              <h2 id="charName2">SUBJECT 02</h2>
-              <p id="charLine2">계속 보고 있었어.</p>
-              <small id="charTag2">locked file</small>
-            </div>
-          </div>
-        </section>
-
-        <section class="window window-music" data-window="music" style="--x:65%;--y:68%;--w:31%;--h:20%;">
+        <section class="window music-window">
           <div class="titlebar">
             <strong>MUSIC PLAYER</strong>
-            <span class="window-buttons" aria-hidden="true"><i class="btn-min">−</i><i class="btn-close">×</i></span>
+            <span class="window-actions" aria-hidden="true"><i>−</i><i>×</i></span>
           </div>
           <div class="window-body music-body">
-            <div class="cover"><img id="musicCover" alt=""></div>
-            <div class="music-text">
+            <div class="music-cover"><img id="musicCover" alt=""></div>
+            <div class="music-info">
               <h2 id="songTitle">NO SIGNAL</h2>
               <p id="songArtist">UNKNOWN ARTIST</p>
               <small id="songLyric">재생되지 않는 마음도 저장됩니다.</small>
-              <div class="progress"><span></span></div>
+              <div class="music-progress"><span></span></div>
             </div>
           </div>
         </section>
 
         <footer class="taskbar">
-          <span class="start-button">♡ START</span>
-          <button class="task-icon" type="button" data-focus="pair" aria-label="PAIR VIEWER"><span class="icon-shape icon-pair"></span></button>
-          <button class="task-icon" type="button" data-focus="char1" aria-label="CHARACTER 01"><span class="icon-shape icon-file icon-file-a"></span></button>
-          <button class="task-icon" type="button" data-focus="char2" aria-label="CHARACTER 02"><span class="icon-shape icon-file icon-file-b"></span></button>
-          <button class="task-icon" type="button" data-focus="secret" aria-label="SECRET"><span class="icon-shape icon-secret"></span></button>
-          <button class="task-icon" type="button" data-focus="music" aria-label="MUSIC"><span class="icon-shape icon-music"></span></button>
-          <span class="clock" id="fakeClock">21:28</span>
+          <div class="start-button">♡ START</div>
+          <div class="task-icons" aria-hidden="true">
+            <span class="task-icon task-story"></span>
+            <span class="task-icon task-pair"></span>
+            <span class="task-icon task-secret"></span>
+            <span class="task-icon task-music"></span>
+          </div>
+          <div class="desktop-clock" id="desktopClock">21:28</div>
         </footer>
       </div>
     </section>
 
-    <aside class="editor" aria-label="페어틀 편집 패널">
-      <div class="editor-head">
-        <h1>LOVEME Desktop Editor</h1>
-        <p>이미지와 문구를 바꾼 뒤 PNG로 저장하세요.</p>
-      </div>
+    <aside class="editor-panel" aria-label="페어틀 편집 패널">
+      <header>
+        <h1>LOVEME DESKTOP</h1>
+        <p>내용을 바꾸고 PNG로 저장하세요.</p>
+      </header>
 
-      <div class="editor-actions sticky-actions">
-        <button type="button" id="savePngBtn">PNG 저장</button>
-        <button type="button" id="saveDataBtn">브라우저 저장</button>
-        <button type="button" id="resetBtn">초기화</button>
-      </div>
+      <section class="editor-section">
+        <h2>기본</h2>
+        <label>페어명 <input type="text" data-bind="pairName"></label>
+        <label>하단바 시간 <input type="text" data-bind="clockText" placeholder="21:28"></label>
+      </section>
 
-      <details open>
-        <summary>기본 정보</summary>
-        <label>페어명 <input data-bind="pairName" value="LOVE.exe"></label>
-        <label>하단바 시간 <input data-bind="taskbarTime" value="21:28" placeholder="21:28"></label>
-        <label>캐릭터 1 이름 <input data-bind="name1" value="SUBJECT 01"></label>
-        <label>캐릭터 2 이름 <input data-bind="name2" value="SUBJECT 02"></label>
-      </details>
+      <section class="editor-section">
+        <h2>캐릭터</h2>
+        <label>캐릭터 1 이름 <input type="text" data-bind="name1"></label>
+        <label>캐릭터 2 이름 <input type="text" data-bind="name2"></label>
+        <div class="upload-row"><span>PAIR 이미지 1</span><label class="upload-button">이미지 선택<input type="file" accept="image/*" data-image="sd1"></label><em data-file-status="sd1">선택된 이미지 없음</em></div>
+        <div class="upload-row"><span>PAIR 이미지 2</span><label class="upload-button">이미지 선택<input type="file" accept="image/*" data-image="sd2"></label><em data-file-status="sd2">선택된 이미지 없음</em></div>
+        <div class="upload-row"><span>SECRET 이미지 1</span><label class="upload-button">이미지 선택<input type="file" accept="image/*" data-image="secret1"></label><em data-file-status="secret1">선택된 이미지 없음</em></div>
+        <div class="upload-row"><span>SECRET 이미지 2</span><label class="upload-button">이미지 선택<input type="file" accept="image/*" data-image="secret2"></label><em data-file-status="secret2">선택된 이미지 없음</em></div>
+      </section>
 
-      <details open>
-        <summary>이미지</summary>
-        <label class="image-field">SD 이미지 1 <span class="file-ui"><b>파일 선택</b><em data-file-status="sd1">선택된 이미지 없음</em></span><input type="file" accept="image/*" data-image="sd1"></label>
-        <label class="image-field">SD 이미지 2 <span class="file-ui"><b>파일 선택</b><em data-file-status="sd2">선택된 이미지 없음</em></span><input type="file" accept="image/*" data-image="sd2"></label>
-        <label class="image-field">클릭 창 이미지 1 <span class="file-ui"><b>파일 선택</b><em data-file-status="char1">선택된 이미지 없음</em></span><input type="file" accept="image/*" data-image="char1"></label>
-        <label class="image-field">클릭 창 이미지 2 <span class="file-ui"><b>파일 선택</b><em data-file-status="char2">선택된 이미지 없음</em></span><input type="file" accept="image/*" data-image="char2"></label>
-        <label class="image-field">SECRET 두상 1 <span class="file-ui"><b>파일 선택</b><em data-file-status="secret1">선택된 이미지 없음</em></span><input type="file" accept="image/*" data-image="secret1"></label>
-        <label class="image-field">SECRET 두상 2 <span class="file-ui"><b>파일 선택</b><em data-file-status="secret2">선택된 이미지 없음</em></span><input type="file" accept="image/*" data-image="secret2"></label>
-        <label class="image-field">앨범커버 <span class="file-ui"><b>파일 선택</b><em data-file-status="cover">선택된 이미지 없음</em></span><input type="file" accept="image/*" data-image="cover"></label>
-      </details>
+      <section class="editor-section">
+        <h2>STORY</h2>
+        <label>제목 <input type="text" data-bind="storyTitle"></label>
+        <label>본문 <textarea data-bind="storyText" rows="6"></textarea></label>
+        <label>메모 <input type="text" data-bind="storyMemo"></label>
+      </section>
 
-      <details>
-        <summary>캐릭터 창</summary>
-        <label>캐릭터 1 대사 <textarea data-bind="line1">여기까지 와줬네.</textarea></label>
-        <label>캐릭터 1 태그 <input data-bind="tag1" value="saved memory"></label>
-        <label>캐릭터 2 대사 <textarea data-bind="line2">계속 보고 있었어.</textarea></label>
-        <label>캐릭터 2 태그 <input data-bind="tag2" value="locked file"></label>
-      </details>
+      <section class="editor-section grid-two">
+        <h2>SECRET</h2>
+        <label>수치 1 이름 <input type="text" data-bind="statLabel1"></label>
+        <label>수치 1 값 <input type="number" min="0" max="100" data-bind="stat1"></label>
+        <label>수치 2 이름 <input type="text" data-bind="statLabel2"></label>
+        <label>수치 2 값 <input type="number" min="0" max="100" data-bind="stat2"></label>
+        <label>수치 3 이름 <input type="text" data-bind="statLabel3"></label>
+        <label>수치 3 값 <input type="number" min="0" max="100" data-bind="stat3"></label>
+      </section>
 
-      <details>
-        <summary>SECRET</summary>
-        <label>수치 1 이름 <input data-bind="statLabel1" value="LOVE"></label>
-        <label>수치 1 값 <input type="range" min="0" max="100" data-bind="stat1" value="87"></label>
-        <label>수치 2 이름 <input data-bind="statLabel2" value="TRUST"></label>
-        <label>수치 2 값 <input type="range" min="0" max="100" data-bind="stat2" value="41"></label>
-        <label>수치 3 이름 <input data-bind="statLabel3" value="OBSESSION"></label>
-        <label>수치 3 값 <input type="range" min="0" max="100" data-bind="stat3" value="99"></label>
-      </details>
+      <section class="editor-section">
+        <h2>MUSIC</h2>
+        <label>곡 제목 <input type="text" data-bind="songTitle"></label>
+        <label>아티스트 <input type="text" data-bind="songArtist"></label>
+        <label>가사/문장 <input type="text" data-bind="songLyric"></label>
+        <div class="upload-row"><span>커버 이미지</span><label class="upload-button">이미지 선택<input type="file" accept="image/*" data-image="cover"></label><em data-file-status="cover">선택된 이미지 없음</em></div>
+      </section>
 
-      <details>
-        <summary>MUSIC</summary>
-        <label>곡 제목 <input data-bind="songTitle" value="NO SIGNAL"></label>
-        <label>아티스트 <input data-bind="songArtist" value="UNKNOWN ARTIST"></label>
-        <label>가사/문구 한 줄 <textarea data-bind="songLyric">재생되지 않는 마음도 저장됩니다.</textarea></label>
-      </details>
+      <section class="editor-section grid-two">
+        <h2>색상</h2>
+        <label>상단바 1 <input type="color" data-color="--pink"></label>
+        <label>상단바 2 <input type="color" data-color="--lavender"></label>
+        <label>포인트 <input type="color" data-color="--accent"></label>
+        <label>민트 <input type="color" data-color="--mint"></label>
+      </section>
 
-      <details>
-        <summary>색상</summary>
-        <label>핑크 <input type="color" data-color="--pink" value="#ff9fc5"></label>
-        <label>라벤더 <input type="color" data-color="--lavender" value="#c7b5ff"></label>
-        <label>민트 <input type="color" data-color="--mint" value="#9fe2d2"></label>
-        <label>배경 1 <input type="color" data-color="--wallpaper-a" value="#ffc3da"></label>
-        <label>배경 2 <input type="color" data-color="--wallpaper-b" value="#c8bcff"></label>
-      </details>
-
-      <details>
-        <summary>데이터 백업</summary>
-        <div class="editor-actions">
-          <button type="button" id="downloadJsonBtn">JSON 내보내기</button>
-          <label class="file-like">JSON 불러오기 <input type="file" accept="application/json" id="uploadJsonInput"></label>
-        </div>
-      </details>
+      <section class="editor-actions">
+        <button type="button" id="savePngButton">PNG 저장</button>
+        <button type="button" id="exportJsonButton">JSON 저장</button>
+        <label class="json-import">JSON 불러오기<input type="file" accept="application/json" id="importJsonInput"></label>
+        <button type="button" id="resetButton">초기화</button>
+      </section>
     </aside>
   </main>
 </body>
